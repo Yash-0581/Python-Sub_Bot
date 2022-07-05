@@ -1,0 +1,24 @@
+import pyautogui as pg
+import time
+import webbrowser
+
+#Put Your channel URL Here
+webbrowser.open('https://www.youtube.com/c/FilterCopy')
+
+time.sleep(3)
+
+time.sleep(3)
+
+pg.hotkey("shift","ctrl","j")
+
+time.sleep(10)
+
+pg.write('var SubForLogin = document.getElementsByClassName("style-scope ytd-subscribe-button-renderer");SubForLogin[1].click();')
+
+pg.press("Enter")
+
+time.sleep(3)
+
+pg.write('var ClickOnBell = document.getElementsByClassName("style-scope ytd-toggle-button-renderer");ClickOnBell[1].click();')
+
+pg.press("Enter")
