@@ -3,7 +3,7 @@ import time
 import webbrowser
 
 #Put Your channel URL Here
-webbrowser.open('https://www.youtube.com/c/FilterCopy')
+webbrowser.open('https://www.youtube.com/channel/UCQwoWotJEaGa2OnLvsgfXzQ')
 
 time.sleep(3)
 
